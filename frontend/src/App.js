@@ -13,7 +13,7 @@ function App() {
         setLoading(false);
       })
       .catch(error => {
-        console.error('Error fetching expenses:', error);
+        console.error('Error fetching expenses: ', error);
         setLoading(false);
       });
   }, []);
